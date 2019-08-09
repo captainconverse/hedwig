@@ -221,11 +221,11 @@ hr{
     color: #fff;
 }
 .success{
-    background-color: #11ab6e;
+    background-color: #008761;
     color: #fff;
 }
 .successLight{
-    background-color: #e2f5ee;
+    background-color: #e0f1ec;
     
 }
 .successDark{
@@ -243,15 +243,15 @@ hr{
     color: #fff;
 }
 .danger{
-    background-color: #e43317;
+    background-color: #df3116;
     color: #ffffff
 }
 .dangerLight{
-    background-color: #fce6e3;
+    background-color: #fbe6e3;
     
 }
 .dangerDark{
-    background-color: #7d1c0d;
+    background-color: #70190b;
     color: #ffffff;
 }
 .grey100{
