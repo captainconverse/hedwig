@@ -297,6 +297,12 @@ dd{
     font-style: italic;
     color: #6c757d;
 }
+.font-span h1, .font-span h2, .font-span h3, .font-span h4, .font-span h5, .font-span p{
+    display: inline;
+}
+.font-span p{
+    color: #969696;
+}
 .full-logo{
     padding: 4rem 0;
 }
