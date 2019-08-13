@@ -70,7 +70,7 @@ nav ul li{
     padding: .5vh 0;
 }
  a{
-    color: #0072b1;
+    color: #0a65c1;
         position: relative;
     transition: all .4s ease-in;
     text-decoration: none;
@@ -82,13 +82,13 @@ nav ul li{
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #004165;
+    background-color: #053361;
     transform: scaleX(0);
     transition: all 0.5s ease;
     transform-origin: left;
 }
  a:hover{
-    color: #004165;
+    color: #053361;
     text-decoration: none;
 }
 a:hover:before{
