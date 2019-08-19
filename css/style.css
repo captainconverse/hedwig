@@ -56,6 +56,7 @@ nav{
     bottom: 0;
     border-right: 1px solid #d8d8d8;
     width: 16rem;
+    overflow: scroll;
 }
 nav hr{
     border-top: 1px solid #d8d8d8;
