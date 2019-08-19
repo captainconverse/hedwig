@@ -331,6 +331,11 @@ dd{
     color: #434547;
     background-color: #eeeeef;
 }
+.alert-success{
+    color: #095e3d;
+    background-color: #e0f1ec;
+}
+
 
 
 footer{
