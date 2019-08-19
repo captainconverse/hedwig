@@ -314,6 +314,16 @@ dd{
 .full-logo{
     padding: 4rem 0;
 }
+.alert{
+    padding: 4px;
+    border-radius: 4px;
+    text-align: left;
+}
+.alert-primary{
+    color: #003e61;
+    background-color: #e0eef5;
+}
+
 footer{
     display: flex;
     flex-direction: row;
