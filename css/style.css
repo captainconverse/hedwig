@@ -335,6 +335,15 @@ dd{
     color: #095e3d;
     background-color: #e0f1ec;
 }
+.alert-warning{
+    color: #664d1a;
+    background-color: #fff8e8;
+}
+.alert-danger{
+    color: #70190b;
+    background-color: #fbe6e3;
+}
+
 
 
 
