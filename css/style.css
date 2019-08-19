@@ -65,6 +65,7 @@ nav hr{
     width: 6rem;
     margin: 0 auto;
     padding: 1vh;
+    min-height: 100px;
 }
 nav ul li{
     list-style-type: none;
