@@ -315,7 +315,7 @@ dd{
     padding: 4rem 0;
 }
 .alert{
-    padding: 8px;
+    padding: 16px;
     border-radius: 4px;
     text-align: left;
 }
@@ -323,6 +323,11 @@ dd{
     color: #003e61;
     background-color: #e0eef5;
 }
+.alert-primary{
+    color: #07485b;
+    background-color: #d9f3fa;
+}
+
 
 footer{
     display: flex;
