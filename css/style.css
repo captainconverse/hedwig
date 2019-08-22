@@ -343,7 +343,55 @@ dd{
     color: #70190b;
     background-color: #fbe6e3;
 }
+a.button{
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+    border-radius: 2em;
+    text-transform: uppercase;
+    display: block;
+}
+a.button:before{
+    content: none;
+}
+a.button:hover{
+    letter-spacing: 1.2px;
+}
+.button-primary{
+    background-color: #0072b1;
+    color: #ffffff;
+}
+.button-outline-primary{
+    border:2px solid #0072b1;
+    
+    color: #0072b1;
+}
 
+.button-info{
+    background-color: #11b3e3;
+    color: #333333;
+}
+.button-outline-info{
+    border:2px solid #11b3e3;
+    color: #333333;
+}
+
+.button-secondary{
+    background-color: #6c757d;
+    color: #ffffff;
+}
+.button-success{
+    background-color: #008761;
+    color: #ffffff;
+}
+.button-warning{
+    background-color: #fec140;
+    color: #333333;
+}
+.button-danger{
+    background-color: #DF3116;
+    color: #ffffff;
+}
 
 
 
