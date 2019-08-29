@@ -183,6 +183,13 @@ hr{
     padding: 10px;
     border-radius: 4px;
 }
+.box2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
 .box h4{
     margin: 0;
     
@@ -393,8 +400,132 @@ a.button:hover{
     color: #ffffff;
 }
 
+.data-vis-prim-light{
+    color: #333;
+    background-color: #99c7e0;
+}
+.data-vis-prim-dark{
+    color: #fff;
+    background-color: #005685;
+}
 
-
+.data-vis-bluegreen{
+    background-color: #02766f;
+    color: #fff;
+}
+.data-vis-bluegreen-light{
+    background-color: #9ac8c5;
+    
+}
+.data-vis-bluegreen-dark{
+    background-color: #025953;
+    color: #fff;
+    
+}
+.green{
+    background-color: #03792c;
+    color: #fff;
+}
+.data-vis-green-light{
+    background-color: #9ac9ab;
+    
+}
+.data-vis-green-dark{
+    background-color: #025b21;
+    color: #fff;
+    
+}
+.green-yellow{
+    background-color: #819d36;
+    color: #fff;
+}
+.green-yellow-light{
+    background-color: #cdd8af;
+    
+}
+.green-yellow-dark{
+    background-color: #617629;
+    color: #fff;
+}
+.data-vis-warning-light{
+    background-color: #ffe6b3;
+}
+.data-vis-warning-dark{
+    background-color: #bf9130;
+    color: #fff;
+}
+.yellow-orange{
+    background-color: #f79d36;
+}
+.yellow-orange-dark{
+    background-color: #b97629;
+    color: #fff
+}
+.yellow-orange-light{
+    background-color: #fcd8af;
+}
+.orange{
+    background-color: #ef792b;
+    color: #fff;
+}
+.orange-light{
+    background-color: #f9c9aa;
+}
+.orange-dark{
+    background-color: #b35b20;
+    color: #ffffff;
+}
+.red-orange{
+    background-color: #e75521;
+    color: #fff;
+}
+.red-orange-light{
+    background-color: #f5bba6;
+}
+.red-orange-dark{
+    background-color: #ad4019;
+    color: #ffffff;
+}
+.red-light{
+    background-color: #f2ada2;
+}
+.red-dark{
+    background-color: #a72510;
+    color: #fff;
+}
+.red-violet{
+    background-color: #ad264e;
+    color: #fff;
+}
+.red-violet-light{
+    background-color: #dea8b8;
+}
+.red-violet-dark{
+    background-color: #821c3b;
+    color: #fff;
+}
+.violet{
+ background-color: #7b1b85;
+    color: #fff;
+}
+.violet-light{
+    background-color: #caa4ce;
+}
+.violet-dark{
+    background-color: #5c1464;
+    color: #fff;
+}
+.blue-violet{
+ background-color: #3e479b;
+    color: #fff;
+}
+.blue-violet-light{
+    background-color: #b2b5d7;
+}
+.blue-violet-dark{
+    background-color: #2f3574;
+    color: #fff;
+}
 footer{
     display: flex;
     flex-direction: row;
