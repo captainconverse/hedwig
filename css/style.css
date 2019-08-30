@@ -530,6 +530,17 @@ a.button:hover{
     background-color: #0d86aa;
     color: #ffffff;
 }
+.data-vis-info-light{
+    background-color: #a0e1f4;
+}
+.data-vis-sec-light{
+    background-color: #c4c8cb;
+}
+.data-vis-sec-dark{
+    background-color: #51585e;
+    color: #fff;
+}
+
 footer{
     display: flex;
     flex-direction: row;
