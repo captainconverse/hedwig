@@ -526,6 +526,10 @@ a.button:hover{
     background-color: #2f3574;
     color: #fff;
 }
+.data-vis-info-dark{
+    background-color: #0d86aa;
+    color: #ffffff;
+}
 footer{
     display: flex;
     flex-direction: row;
