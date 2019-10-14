@@ -470,6 +470,10 @@ article {
     grid-area: min;
     
 }
+#digital-logo svg, #print-logo svg, #second-logo svg, #alts svg{
+    padding: 30px 0 30px ;
+}
+
 
 /* FLEX ROW */
 .flex-row{
