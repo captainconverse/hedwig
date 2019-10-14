@@ -266,6 +266,103 @@ let massChart6 = new Chart(myChart6, {
 
 });
 
+let myChart7 = document.getElementById('myChart7').getContext('2d');
+
+let massChart7 = new Chart(myChart7, {
+    type: 'line',
+    data: {
+        labels: ['MAR', 'APR', 'MAY', 'JUN'],
+        datasets: [{
+                label: ['Data 1'],
+                data: [300, 200, 150, 100, ],
+                backgroundColor: '#e0eef5',
+            borderColor: '#0072b1',
+            pointBackgroundColor: '#0072b1'
+        },
+                   
+                   
+         ],
+
+
+
+    },
+    options: {
+
+
+        scales: {
+             xAxes: [{
+                stacked: true
+            }],
+            yAxes: [{
+                stacked: true
+            }]
+        }
+
+    }
+
+
+
+
+});
+let myChart8 = document.getElementById('myChart8').getContext('2d');
+
+let massChart8 = new Chart(myChart8, {
+    type: 'line',
+    data: {
+        labels: ['MAR', 'APR', 'MAY', 'JUN'],
+        datasets: [{
+                label: ['Data 1'],
+                data: [300, 200, 150, 100, ],
+                backgroundColor: '#e0eef5',
+            borderColor: '#0072b1',
+            pointBackgroundColor: '#0072b1'
+        },
+                    {
+                label: ['Data 2'],
+                data: [ 200, 150, 100, 75,],
+                backgroundColor: '#d9f3fa',
+                        borderColor: '#11b3e3',
+            pointBackgroundColor: '#11b3e3'
+        },
+                  {  label: ['Data 3'],
+                data: [ 100, 75, 50, 25,],
+                backgroundColor: '#fff8e8',
+                   borderColor: '#fec140',
+            pointBackgroundColor: '#fec140'
+        },
+                   
+                  {  label: ['Data 4'],
+                data: [ 100, 75, 50, 25,],
+                backgroundColor: '#fbe6e3',
+                   borderColor: '#df3116',
+            pointBackgroundColor: '#df3116'
+        }
+                   
+                   
+         ],
+
+
+
+    },
+    options: {
+
+
+        scales: {
+             xAxes: [{
+                stacked: true
+            }],
+            yAxes: [{
+                stacked: true
+            }]
+        }
+
+    }
+
+
+
+
+});
+
 
 
 
