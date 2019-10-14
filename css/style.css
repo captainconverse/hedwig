@@ -106,6 +106,7 @@ hr {
 }
 
 /* PADDING */
+
 .py-30 {
     padding: 30px 0;
 }
@@ -561,7 +562,11 @@ ol li {
     width: 75px;
     height: 25px;
 }
-
+/*CHARTs */
+.chart-box{
+    padding: 15px;
+    width: 50%;
+}
 /* FLEX ROW */
 .flex-row {
     display: flex;
@@ -571,6 +576,13 @@ ol li {
 .row {
     display: flex;
     flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.half{
+    width: 50%;
 }
 
 /* FOOTER */
@@ -654,6 +666,8 @@ footer {
     .box-sm {
         width: 100px;
     }
-
+    .chart-box{
+        width: 100%;
+    }
 
 }
