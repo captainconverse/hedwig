@@ -106,6 +106,9 @@ hr {
 }
 
 /* PADDING */
+.p-15{
+    padding: 15px;
+}
 
 .py-30 {
     padding: 30px 0;

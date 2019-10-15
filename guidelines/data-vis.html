@@ -61,12 +61,7 @@
                                 <ol style="list-style-type: lower-alpha">
                                     <li>Comparison: difference or similarity between different values?</li>
                                     <li>Trending: data that has changed over time?</li>
-                                    <li>Relationship: correlation in data values?</li>
-                                    <li>Composition: relative makeup of a value?</li>
-                                    <li>Distribution: volume distribution and identification of outliers?</li>
-                                    <li>Metric: measuring progress at a glance?</li>
-                                    <li>Location: values on a geographical coordinate system?</li>
-                                    <li>Pipeline: stages (or flow between stages) of a process?</li>
+
                                 </ol>
                             </li>
                         </ol>
@@ -118,23 +113,54 @@
                                     <canvas class="chart-ex" id="myChart6"></canvas>
                                 </div>
                             </div>
-                            
-                            
+
+
                             <div class="flex-row py-60">
-                                 <div class="chart-box bg-grey1 ">
-                                   <h6 class="text-center">ALWAYS USE A ZERO BASELINE</h6>
-                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5"><title>start-at-zero</title><rect x="190.42" y="168.99" width="45" height="74" style="fill:#0072b1"/><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><rect x="60.42" y="74.99" width="45" height="167" style="fill:#0072b1"/><rect x="125.42" y="157.99" width="45" height="84" style="fill:#0072b1"/><rect x="254.42" y="137.99" width="45" height="105" style="fill:#0072b1"/><rect x="319.42" y="122.99" width="45" height="120" style="fill:#0072b1"/><rect x="384.42" y="145.99" width="45" height="97" style="fill:#0072b1"/><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text><rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#008761;stroke-miterlimit:10;stroke-width:2px"/><circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff"/><circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#008761;stroke-miterlimit:10;stroke-width:4px"/><polygon points="455.23 35.55 447.34 27.66 417.46 57.53 399.09 39.15 391.19 47.04 409.57 65.42 409.54 65.45 417.43 73.34 417.46 73.31 417.5 73.34 425.39 65.45 425.35 65.42 455.23 35.55" style="fill:#008761"/></svg>
+                                <div class="chart-box bg-grey1 ">
+                                    <h6 class="text-center">ALWAYS USE A ZERO BASELINE</h6>
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5">
+                                        <title>start-at-zero</title>
+                                        <rect x="190.42" y="168.99" width="45" height="74" style="fill:#0072b1" /><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text>
+                                        <polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <rect x="60.42" y="74.99" width="45" height="167" style="fill:#0072b1" />
+                                        <rect x="125.42" y="157.99" width="45" height="84" style="fill:#0072b1" />
+                                        <rect x="254.42" y="137.99" width="45" height="105" style="fill:#0072b1" />
+                                        <rect x="319.42" y="122.99" width="45" height="120" style="fill:#0072b1" />
+                                        <rect x="384.42" y="145.99" width="45" height="97" style="fill:#0072b1" /><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text>
+                                        <rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#008761;stroke-miterlimit:10;stroke-width:2px" />
+                                        <circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff" />
+                                        <circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#008761;stroke-miterlimit:10;stroke-width:4px" />
+                                        <polygon points="455.23 35.55 447.34 27.66 417.46 57.53 399.09 39.15 391.19 47.04 409.57 65.42 409.54 65.45 417.43 73.34 417.46 73.31 417.5 73.34 425.39 65.45 425.35 65.42 455.23 35.55" style="fill:#008761" />
+                                    </svg>
                                 </div>
-                               <div class="chart-box bg-grey1 ">
-                                   <h6 class="text-center">NEVER ADD PURELY DECORATIVE COLORS</h6>
-                                   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5"><title>dont-recolor</title><rect x="190.42" y="168.99" width="45" height="74" style="fill:#fec140"/><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><rect x="60.42" y="74.99" width="45" height="167" style="fill:#0072b1"/><rect x="125.42" y="157.99" width="45" height="84" style="fill:#11b3e3"/><rect x="254.42" y="137.99" width="45" height="105" style="fill:#003792"/><rect x="319.42" y="122.99" width="45" height="120" style="fill:#df3116"/><rect x="384.42" y="145.99" width="45" height="97" style="fill:#7b1b85"/><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text><rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#df3116;stroke-miterlimit:10;stroke-width:2px"/><circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff"/><circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#df3116;stroke-miterlimit:10;stroke-width:4px"/><rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(142.07 -389.32) rotate(45)" style="fill:#df3116"/><rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(864.03 -231.64) rotate(135)" style="fill:#df3116"/></svg>
+                                <div class="chart-box bg-grey1 ">
+                                    <h6 class="text-center">NEVER ADD PURELY DECORATIVE COLORS</h6>
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5">
+                                        <title>dont-recolor</title>
+                                        <rect x="190.42" y="168.99" width="45" height="74" style="fill:#fec140" /><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text>
+                                        <polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <rect x="60.42" y="74.99" width="45" height="167" style="fill:#0072b1" />
+                                        <rect x="125.42" y="157.99" width="45" height="84" style="fill:#11b3e3" />
+                                        <rect x="254.42" y="137.99" width="45" height="105" style="fill:#003792" />
+                                        <rect x="319.42" y="122.99" width="45" height="120" style="fill:#df3116" />
+                                        <rect x="384.42" y="145.99" width="45" height="97" style="fill:#7b1b85" /><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text>
+                                        <rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#df3116;stroke-miterlimit:10;stroke-width:2px" />
+                                        <circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff" />
+                                        <circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#df3116;stroke-miterlimit:10;stroke-width:4px" />
+                                        <rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(142.07 -389.32) rotate(45)" style="fill:#df3116" />
+                                        <rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(864.03 -231.64) rotate(135)" style="fill:#df3116" />
+                                    </svg>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </section>
 
-                          <section id="trend" class="py-60">
+                        <section id="trend" class="py-60">
                             <h2 class="text-primary">
                                 Trend Charts
                             </h2>
@@ -153,29 +179,58 @@
                                     <canvas class="chart-ex" id="myChart8"></canvas>
                                 </div>
                             </div>
-                            
-                                                      
-                            
+
+
+
                             <div class="flex-row py-60">
-                                 <div class="chart-box bg-grey1 ">
-                                   <h6 class="text-center">NEVER USE MORE THAN 4 POINTS OF DATA</h6>
-                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5"><title>dont-use-too-many-data-points</title><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text><rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#df3116;stroke-miterlimit:10;stroke-width:2px"/><circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff"/><circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#df3116;stroke-miterlimit:10;stroke-width:4px"/><rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(142.07 -389.32) rotate(45)" style="fill:#df3116"/><rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(864.03 -231.64) rotate(135)" style="fill:#df3116"/><polyline points="71.09 83.53 141.37 110.79 208.21 127.75 273.05 96.82 331.57 130.61 406.74 123.76" style="fill:none;stroke:#0072b1;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="64.42 183.17 154 195.25 213.71 177.52 274.61 210.25 341.56 186.83 406.74 212.55" style="fill:none;stroke:#11b3e3;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="75.97 215.65 156.22 147.37 213.71 209.44 272.39 142.05 339.92 103.06 398.31 105.25" style="fill:none;stroke:#fec140;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="83.06 139.39 150.01 174.86 206.77 146.93 267.95 128.75 331.36 151.8 406.74 151.8" style="fill:none;stroke:#df3116;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="83.06 114.56 147.35 91 213.71 92.83 272.83 114.56 361.07 91 406.74 136.28" style="fill:none;stroke:#03792c;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="78.19 230.73 146.47 212.55 213.71 228.07 275.49 182.84 341.56 230.73 412.5 182.84" style="fill:none;stroke:#7b1b85;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/></svg>
+                                <div class="chart-box bg-grey1 ">
+                                    <h6 class="text-center">NEVER USE MORE THAN 4 POINTS OF DATA</h6>
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5">
+                                        <title>dont-use-too-many-data-points</title><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text>
+                                        <polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" /><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text>
+                                        <rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#df3116;stroke-miterlimit:10;stroke-width:2px" />
+                                        <circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff" />
+                                        <circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#df3116;stroke-miterlimit:10;stroke-width:4px" />
+                                        <rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(142.07 -389.32) rotate(45)" style="fill:#df3116" />
+                                        <rect x="503.97" y="89.72" width="13.07" height="43.56" transform="translate(864.03 -231.64) rotate(135)" style="fill:#df3116" />
+                                        <polyline points="71.09 83.53 141.37 110.79 208.21 127.75 273.05 96.82 331.57 130.61 406.74 123.76" style="fill:none;stroke:#0072b1;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="64.42 183.17 154 195.25 213.71 177.52 274.61 210.25 341.56 186.83 406.74 212.55" style="fill:none;stroke:#11b3e3;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="75.97 215.65 156.22 147.37 213.71 209.44 272.39 142.05 339.92 103.06 398.31 105.25" style="fill:none;stroke:#fec140;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="83.06 139.39 150.01 174.86 206.77 146.93 267.95 128.75 331.36 151.8 406.74 151.8" style="fill:none;stroke:#df3116;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="83.06 114.56 147.35 91 213.71 92.83 272.83 114.56 361.07 91 406.74 136.28" style="fill:none;stroke:#03792c;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="78.19 230.73 146.47 212.55 213.71 228.07 275.49 182.84 341.56 230.73 412.5 182.84" style="fill:none;stroke:#7b1b85;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                    </svg>
                                 </div>
-                               <div class="chart-box bg-grey1 ">
-                                   <h6 class="text-center">IF NEEDED LINES CAN BE USED INSTEAD OF AREA</h6>
-                                   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5"><title>not-filled-line</title><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10"/><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text><rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#03792c;stroke-miterlimit:10;stroke-width:2px"/><circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff"/><circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#03792c;stroke-miterlimit:10;stroke-width:4px"/><rect x="509.37" y="89.72" width="13.07" height="43.56" transform="translate(143.66 -393.14) rotate(45)" style="fill:#03792c"/><rect x="492.92" y="102.86" width="13.07" height="27.6" transform="translate(848.82 -215.01) rotate(135)" style="fill:#03792c"/><polyline points="71.09 83.53 141.37 110.79 208.21 127.75 273.05 96.82 331.57 130.61 406.74 123.76" style="fill:none;stroke:#0072b1;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="64.42 183.17 154 195.25 213.71 177.52 274.61 210.25 341.56 186.83 406.74 212.55" style="fill:none;stroke:#11b3e3;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="75.97 215.65 156.22 147.37 213.71 209.44 272.39 142.05 339.92 103.06 398.31 105.25" style="fill:none;stroke:#fec140;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/><polyline points="83.06 139.39 150.01 174.86 206.77 146.93 267.95 128.75 331.36 151.8 406.74 151.8" style="fill:none;stroke:#df3116;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px"/></svg>
+                                <div class="chart-box bg-grey1 ">
+                                    <h6 class="text-center">IF NEEDED LINES CAN BE USED INSTEAD OF AREA</h6>
+                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.71 286.5">
+                                        <title>not-filled-line</title><text transform="translate(60.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(126.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(191.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(254.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(320.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text><text transform="translate(384.03 263.94)" style="font-size:12px;fill:#333;font-family:MuseoSans-700, Museo Sans;font-weight:700">MONTH</text>
+                                        <polyline points="50.42 75.99 50.42 242.99 443.42 242.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="159.49" x2="443.42" y2="159.49" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" />
+                                        <line x1="50.42" y1="75.99" x2="443.42" y2="75.99" style="fill:none;stroke:#b7b7b7;stroke-miterlimit:10" /><text transform="translate(16.58 83.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">300</text><text transform="translate(18.29 162.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">150</text><text transform="translate(33.42 247.53)" style="font-size:14px;font-family:MuseoSans-700, Museo Sans;font-weight:700">0</text>
+                                        <rect x="1" y="29.01" width="458" height="256.49" rx="6" style="fill:none;stroke:#03792c;stroke-miterlimit:10;stroke-width:2px" />
+                                        <circle cx="424.21" cy="50.5" r="50.5" style="fill:#fff" />
+                                        <circle cx="424.21" cy="50.5" r="40.5" style="fill:#fff;stroke:#03792c;stroke-miterlimit:10;stroke-width:4px" />
+                                        <rect x="509.37" y="89.72" width="13.07" height="43.56" transform="translate(143.66 -393.14) rotate(45)" style="fill:#03792c" />
+                                        <rect x="492.92" y="102.86" width="13.07" height="27.6" transform="translate(848.82 -215.01) rotate(135)" style="fill:#03792c" />
+                                        <polyline points="71.09 83.53 141.37 110.79 208.21 127.75 273.05 96.82 331.57 130.61 406.74 123.76" style="fill:none;stroke:#0072b1;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="64.42 183.17 154 195.25 213.71 177.52 274.61 210.25 341.56 186.83 406.74 212.55" style="fill:none;stroke:#11b3e3;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="75.97 215.65 156.22 147.37 213.71 209.44 272.39 142.05 339.92 103.06 398.31 105.25" style="fill:none;stroke:#fec140;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                        <polyline points="83.06 139.39 150.01 174.86 206.77 146.93 267.95 128.75 331.36 151.8 406.74 151.8" style="fill:none;stroke:#df3116;stroke-linecap:round;stroke-linejoin:round;stroke-width:6px" />
+                                    </svg>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </section>
 
-                        
-                     
                         <section id="pallets">
                             <h2 class="text-primary">
                                 Data Visualisation Pallets
                             </h2>
+                            <hr>
                             <div class="flex-row">
                                 <div class="pallet">
                                     <h3 class="text-secondary text-center">Primary</h3>
@@ -370,6 +425,192 @@
                                 </div>
                             </div>
                         </section>
+                        <section id="hues">
+                            <h2 class="text-primary">Data Visualization Colorset</h2>
+                            <hr>
+                            <p>Data visualization has its own set of complications apart from general layout. Because of the unique qualifications Data vis needs its own colors.</p>
+                            <div class="flex-row">
+                                <div class="chart-box">
+                                                                       <div class="row">
+                                        <div class="box-sm" style="background-color: #a0e1f4">
+                                            <p><strong>Hex: #a0e1f4</strong></p>
+                                        </div>
+                                        <div class="box-sm bg-info">
+                                            <p><strong>Hex: #0072b1</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #0d86aa; color: #fff;">
+                                            <p><strong>Hex: #0d86aa</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #99c7e0">
+                                            <p><strong>Hex: #99c7e0</strong></p>
+                                        </div>
+                                        <div class="box-sm bg-primary">
+                                            <p><strong>Hex: #0072b1</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #005685; color: #fff;">
+                                            <p><strong>Hex: #005685</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #9ac8c5">
+                                            <p><strong>Hex: #9ac8c5</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #02766f; color: #fff;">
+                                            <p><strong>Hex: #02766f</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #025953; color: #ffffff;">
+                                            <p><strong>Hex: #025953</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #9ac9ab;">
+                                            <p><strong>Hex: #9ac9ab</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #03792c; color: #fff;">
+                                            <p><strong>Hex: #03792c</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #025b21; color: #fff;">
+                                            <p><strong>Hex: #025b21</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #cdd8af;">
+                                            <p><strong>Hex: #cdd8af</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #819d36; color: #fff;">
+                                            <p><strong>Hex: #819d36</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #617629; color: #fff;">
+                                            <p><strong>Hex: #617629</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #ffe6b3;">
+                                            <p><strong>Hex: #ffe6b3</strong></p>
+                                        </div>
+                                        <div class="box-sm bg-warning">
+                                            <p><strong>Hex: #fec140</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #bf9130; color: #fff;">
+                                            <p><strong>Hex: #bf9130</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #fcd8af">
+                                            <p><strong>Hex: #fcd8af</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #f79d36">
+                                            <p><strong>Hex: #f79d36</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #b97629; color: #fff">
+                                            <p><strong>Hex: #b97629</strong></p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="chart-box">
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #f9c9aa;">
+                                            <p><strong>Hex: #f9c9aa</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #ef792b;">
+                                            <p><strong>Hex: #ef792b</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #b35b20; color: #fff;">
+                                            <p><strong>Hex: #b35b20</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #f5bba6;">
+                                            <p><strong>Hex: #f5bba6</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #e75521; color: #fff;">
+                                            <p><strong>Hex: #e75521</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #ad4019; color: #fff;">
+                                            <p><strong>Hex: #ad4019</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #f2ada2;">
+                                            <p><strong>Hex: #f2ada2</strong></p>
+                                        </div>
+                                        <div class="box-sm bg-danger">
+                                            <p><strong>Hex: #df3116</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #a72510; color: #fff;">
+                                            <p><strong>Hex: #a72510</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #dea8b8">
+                                            <p><strong>Hex: #dea8b8</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #ad264e; color: #fff;">
+                                            <p><strong>Hex: #ad264e</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #821c3b; color: #fff;">
+                                            <p><strong>Hex: #821c3b</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm " style="background-color: #caa4ce;">
+                                            <p><strong>Hex: #caa4ce</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #7b1b85; color: #fff;">
+                                            <p><strong>Hex: #7b1b85</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #5c1464; color: #fff;">
+                                            <p><strong>Hex: #5c1464</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #b2b5d7;">
+                                            <p><strong>Hex: #b2b5d7</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #3e479b;color: #fff;">
+                                            <p><strong>Hex: #3e479b</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #2f3574; color: #fff;">
+                                            <p><strong>Hex: #2f3574</strong></p>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="box-sm" style="background-color: #c4c8cb;">
+                                            <p><strong>Hex: #c4c8cb</strong></p>
+                                        </div>
+                                        <div class="box-sm bg-secondary">
+                                            <p><strong>Hex: #6c757d</strong></p>
+                                        </div>
+                                        <div class="box-sm" style="background-color: #51585e; color: #fff;">
+                                            <p><strong>Hex: #51585e</strong></p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+
 
                     </div>
                     <div class="minority">
@@ -384,10 +625,10 @@
                             <li>
                                 <h5><a href="#pallets">Chart Pallets</a></h5>
                             </li>
-                             <li>
-                                <h5><a href="#print">Colors</a></h5>
-                            </li>
 
+                            <li>
+                                <h5><a href="#hues">Color Set</a></h5>
+                            </li>
                         </ul>
                     </div>
 
