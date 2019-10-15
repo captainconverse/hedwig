@@ -225,7 +225,11 @@ dd {
 }
 
 /* BORDERS */
-
+.border{
+    border: 2px solid #d8d8d8;
+    padding: 15px;
+    border-radius: 6px;
+}
 .border-success {
     border: 3px solid #008761;
 }
@@ -383,6 +387,22 @@ dd {
 .black {
     background-color: #000;
     color: #fff;
+}
+/* ALERTS */
+.alert-primary, .alert-info{
+    padding: 15px;
+    border-radius: 6px;
+    margin: 12px;
+}
+.alert-primary{
+    background-color: #e0eef5;
+    border: 1px solid #0072b1;
+    color: #0072b1;
+}
+.alert-info{
+    background-color: #d9f3fa;
+    border: 1px solid #11b3e3;
+    color: #07485b;
 }
 
 /* LAYOUT */
