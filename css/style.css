@@ -104,6 +104,9 @@ hr {
 .font-span p {
     display: inline;
 }
+code{
+    font-size: 1.15rem;
+}
 
 /* PADDING */
 .p-15{
@@ -418,6 +421,14 @@ dd {
     background-color: #fbe6e3;
     border: 1px solid #df3116;
     color: #70190b;
+}
+.alert-success hr{
+   border-top: 1px solid #008761;
+}
+.alert-success a{
+    color: #095e3d;
+    font-weight: bold;
+    
 }
 
 /* LAYOUT */

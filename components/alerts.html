@@ -23,11 +23,11 @@
             <p>V. 1.0.0</p>
             <hr>
         </div>
-       <ul>
+        <ul>
             <li><a href="/hedwig/index.html">Getting Started</a></li>
             <!-- <li><a href="/hedwig/glossary.html">ProctorU Glossary</a></li> -->
             <li><a href="/hedwig/guidelines/overview.html">Design Guidelines</a></li>
-            <li><a href="/">Components</a></li>
+            <li><a href="/hedwig/components/alerts.html">Components</a></li>
             <li>
                 <ul>
                     <li><a href="/hedwig/components/alerts.html">Alerts</a></li>
@@ -49,29 +49,68 @@
             <section id="article-body">
                 <section class="three-quarters">
                     <div class="majority">
-                        <section id="digital">
+                        <section id="example">
                             <h2 class="text-primary">Alerts</h2>
                             <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages</p>
                             <hr>
                             <section class="border">
-                                <div class="alert-primary">
+                                <div class="alert-primary" role="alert">
                                     This is a primary alert!
                                 </div>
-                                <div class="alert-info">
+                                <div class="alert-info" role="alert">
                                     This is an Informational alert!
                                 </div>
-                                 <div class="alert-success">
+                                <div class="alert-success" role="alert">
                                     This is a Successful alert!
                                 </div>
-                                <div class="alert-warning">
+                                <div class="alert-warning" role="alert">
                                     This is a Warning alert!
                                 </div>
-                                <div class="alert-danger">
+                                <div class="alert-danger" role="alert">
                                     This is a Dangerous alert!
                                 </div>
                             </section>
-                            <section class="bg-grey2" style="padding: 15px">
+                            <section class="bg-grey1" style="padding: 15px">
+                                <div style="padding: 15px">
+                                    <code class="language-html" data-lang="html">
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-primary"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span> This is a primary alert! <span class="text-primary">&lt;/div&gt;</span><br><br>
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-info"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span> This is an Informational alert! <span class="text-primary">&lt;/div&gt;</span><br><br>
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-success"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span> This is a Successful alert! <span class="text-primary">&lt;/div&gt;</span><br><br>
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-warning"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span> This is a Warning alert! <span class="text-primary">&lt;/div&gt;</span><br><br>
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-danger"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span> This is a Dangerous alert! <span class="text-primary">&lt;/div&gt;</span><br><br>
+
+
+                                    </code>
+                                </div>
+                            </section>
+
+
+
+                        </section>
+                        <section id="example">
+                            <h2 class="text-primary">Additional Content</h2>
+                            <p>Alerts can also contain other HTML elements. When other elemts are used then the parent set the styles for color, link color, and link hover</p>
+                            <hr>
+                            <section class="border">
                                 
+                                <div class="alert-success" role="alert">
+                                    <h4>Congratulations!</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ducimus.</p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minima, <a href="#">beatae earum</a>!</p>
+                                </div>
+                                
+                            </section>
+                            <section class="bg-grey1" style="padding: 15px">
+                                <div style="padding: 15px">
+                                    <code class="language-html" data-lang="html">
+                                        
+                                        <span class="text-primary">&lt;div</span> <span class="text-info">class=</span><span class="text-danger">"alert-success"</span> <span class="text-primary">role=</span><span class="text-danger">"alert"</span><span class="text-primary">&gt;</span><br><br><span class="text-primary">&lt;h4&gt;</span>Congratulations!<span class="text-primary">&lt;/h4&gt;</span><br><br><span class="text-primary">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ducimus.<span class="text-primary">&lt;/p&gt;</span><br><br><span class="text-primary">&lt;hr&gt;</span><br><br><span class="text-primary">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minima, <span class="text-primary">&lt;a</span> <span class="text-danger">href="#"</span> <span class="text-primary">&gt;</span>beatae earum<span class="text-primary">&lt;/a&gt;</span> <span class="text-primary">&lt;/p&gt;</span><br><br> <span class="text-primary">&lt;/div&gt;</span><br><br>
+                                        
+
+
+                                    </code>
+                                </div>
                             </section>
 
 
