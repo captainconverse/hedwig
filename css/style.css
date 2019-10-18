@@ -381,9 +381,10 @@ dd {
 
 /* BORDERS */
 .border {
-    border: 2px solid #d8d8d8;
+    border: 6px solid #f9f9f9;
     padding: 15px;
-    border-radius: 6px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .border-success {
@@ -402,7 +403,26 @@ dd {
 .text-center {
     text-align: center;
 }
-
+/* breadcrumb */
+.breadcrumb{
+    list-style: none;
+    display: flex;
+    font-size: 90%;
+    font-style: italic;
+}
+.breadcrumb li{
+    padding: 0 .5rem 0 0;
+}
+.breadcrumb li:before{
+    display: inline-block;
+    padding-right: .5rem;
+    content: "/";
+}
+.breadcrumb li:first-child:before{
+    display: inline-block;
+    padding-right: .5rem;
+    content: "";
+}
 
 /* COLOURS */
 .bg-primary {
