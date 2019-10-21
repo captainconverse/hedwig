@@ -1,7 +1,7 @@
 /* ROOT */
 :root{
     --primary-color: #0072b1;
-    --secondary-color: #11b3e3;
+    --secondary-color: #0072b1;
     --font-color: #333333;
     --bg-color: #fff;
     --heading-color: #0072b1;
@@ -12,10 +12,10 @@
 }
 
 [data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
+    --primary-color: #fec140;
+    --secondary-color: #11b3e3;
+    --font-color: #f9f9f9;
+    --bg-color: #333;
     --heading-color: #818cab;
     --nav-bg: #000000;
     --font-size: 18px;
@@ -94,6 +94,9 @@ article{
     padding: 15px;
 }
 /* FOOTER */
+footer{
+    padding: 15px
+}
 
 .theme-switch-wrapper {
   display: flex;
@@ -138,7 +141,7 @@ article{
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #fec140;
 }
 
 input:checked + .slider:before {
@@ -152,3 +155,5 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
