@@ -824,6 +824,17 @@ ol li {
     width: 50%;
 }
 
+/* DOWNLOADS */
+.download{
+    display: flex;
+    flex-direction: column;
+    margin: 15px
+}
+.download-preview{
+    width: 300px;
+    margin: 0 auto;
+}
+
 /* FOOTER */
 footer {
 
